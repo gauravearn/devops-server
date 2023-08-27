@@ -15,5 +15,5 @@ extension of the files for which you want to copy
         file_storage_move = dir_storage.each{|each| \
                             puts "mv " + each + " " + dir_path + " " + "backup" + each \
                                                 if each.end_with?(file_extension)}
-    return file_storage
+    return file_storage_copy, file_storage_move
 end
