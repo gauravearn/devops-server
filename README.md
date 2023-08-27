@@ -3,18 +3,17 @@ a ruby function to aid your devops for the sequencing reads and to run and gener
 dealing with large amount of the sequencing data on a high throughput cluster. run this with the dir_path as your path of the existing files and the backup dir as the path where you want to copy the files and the extension of the files for which you want to copy \
 
 ```
-rubyServer("/Users/gauravsablok/Desktop/CodeRelease/fasta_sample_datasets/",
-                                "/Desktop","fasta")
-cp -r /Desktop/backupread_check.fasta
-cp -r /Desktop/backuptest_sample_short1.fasta
-cp -r /Desktop/backuptest_sample.fasta
-cp -r /Desktop/backupsample4.fasta
-cp -r /Desktop/backupread_transdecoder.fasta
-mv /Desktop/backupread_check.fasta
-mv /Desktop/backuptest_sample_short1.fasta
-mv /Desktop/backuptest_sample.fasta
-mv /Desktop/backupsample4.fasta
-mv /Desktop/backupread_transdecoder.fasta
+cp -r read_check.fasta /Desktop/backupread_check.fasta
+cp -r test_sample_short1.fasta /Desktop/backuptest_sample_short1.fasta
+cp -r test_sample.fasta /Desktop/backuptest_sample.fasta
+cp -r sample4.fasta /Desktop/backupsample4.fasta
+cp -r read_transdecoder.fasta /Desktop/backupread_transdecoder.fasta
+mv read_check.fasta /Desktop backupread_check.fasta
+mv test_sample_short1.fasta /Desktop backuptest_sample_short1.fasta
+mv test_sample.fasta /Desktop backuptest_sample.fasta
+mv sample4.fasta /Desktop backupsample4.fasta
+mv read_transdecoder.fasta /Desktop backupread_transdecoder.fasta
+[#<Dir:/Users/gauravsablok/Desktop/CodeRelease/fasta_sample_datasets/>, #<Dir:/Users/gauravsablok/Desktop/CodeRelease/fasta_sample_datasets/>]
 ```
 
 Gaurav Sablok \
