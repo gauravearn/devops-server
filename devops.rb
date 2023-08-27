@@ -10,10 +10,10 @@ extension of the files for which you want to copy
         dir_storage = Dir.open(dir_path)
         dir_path = backup_dir_path.to_s
         file_storage_copy = dir_storage.each{|each| \
-                        puts "cp -r " + dir_path + "/" + "backup" + each \
+                        puts "cp -r " + each + " " + dir_path + "/" + "backup" + each \
                                           if each.end_with?(file_extension)}
         file_storage_move = dir_storage.each{|each| \
-                            puts "mv " + dir_path + "/" + "backup" + each \
+                            puts "mv " + each + " " + dir_path + " " + "backup" + each \
                                                 if each.end_with?(file_extension)}
     return file_storage
 end
