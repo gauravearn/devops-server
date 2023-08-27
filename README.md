@@ -15,7 +15,8 @@ mv test_sample_short1.fasta /usr/bin/desktop backuptest_sample_short1.fasta
 mv test_sample.fasta /usr/bin/desktop backuptest_sample.fasta
 mv sample4.fasta /usr/bin/desktop backupsample4.fasta
 mv read_transdecoder.fasta /usr/bin/desktop backupread_transdecoder.fasta
-[#<Dir:/Users/gauravsablok/Desktop/CodeRelease/fasta_sample_datasets/>, #<Dir:/Users/gauravsablok/Desktop/CodeRelease/fasta_sample_datasets/>]
+[#<Dir:/Users/gauravsablok/Desktop/CodeRelease/fasta_sample_datasets/>,
+                     #<Dir:/Users/gauravsablok/Desktop/CodeRelease/fasta_sample_datasets/>]
 ```
 
 Gaurav Sablok \
