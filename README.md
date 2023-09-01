@@ -1,6 +1,6 @@
 # devops_ruby_server_implementation
 a ruby function to aid your devops for the sequencing reads and to run and generate the paths for the files for the entire sequencing reads cluster.A ruby function to make server backups when you are
-dealing with large amount of the sequencing data on a high throughput cluster. run this with the dir_path as your path of the existing files and the backup dir as the path where you want to copy the files and the extension of the files for which you want to copy 
+dealing with large amount of the sequencing data on a high throughput cluster. run this with the dir_path as your path of the existing files and the backup dir as the path where you want to copy the files and the extension of the files for which you want to copy. This function has been extended to the complete devops class [devops_system_util](https://github.com/sablokgaurav/devops_system_util) which has a lot more functions to call. 
 
 ```
 rubyServer("/Users/gauravsablok/Desktop/CodeRelease/fasta_sample_datasets/", \
