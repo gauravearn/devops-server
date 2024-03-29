@@ -1,4 +1,4 @@
-# devops_ruby_server_profiler
+# devops-server
 a ruby function to aid your devops for the sequencing reads and to run and generate the paths for the files for the entire sequencing reads cluster.A ruby function to make server backups when you are
 dealing with large amount of the sequencing data on a high throughput cluster. run this with the dir_path as your path of the existing files and the backup dir as the path where you want to copy the files and the extension of the files for which you want to copy. This function has been extended to the complete devops class [devops_system_util](https://github.com/sablokgaurav/devops_system_util) which has a lot more functions to call. 
 
@@ -18,9 +18,9 @@ mv read_transdecoder.fasta /usr/bin/desktop backupread_transdecoder.fasta
 [#<Dir:/Users/gauravsablok/Desktop/CodeRelease/fasta_sample_datasets/>,
                      #<Dir:/Users/gauravsablok/Desktop/CodeRelease/fasta_sample_datasets/>]
 ```
-
 Gaurav Sablok \
-ORCID: https://orcid.org/0000-0002-4157-9405 \
-WOS: https://www.webofscience.com/wos/author/record/C-5940-2014 \
-RubyGems Published: https://rubygems.org/profiles/sablokgaurav \
-Python Packages Published : https://pypi.org/user/sablokgaurav/
+Academic Staff Member \
+Bioinformatics \
+Institute for Biochemistry and Biology \
+University of Potsdam \
+Potsdam,Germany 
