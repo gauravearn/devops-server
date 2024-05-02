@@ -18,7 +18,7 @@ mv read_transdecoder.fasta /usr/bin/desktop backupread_transdecoder.fasta
 [#<Dir:/Users/gauravsablok/Desktop/CodeRelease/fasta_sample_datasets/>,
                      #<Dir:/Users/gauravsablok/Desktop/CodeRelease/fasta_sample_datasets/>]
 ```
-Gaurav Sablok \
+Gaurav \
 Academic Staff Member \
 Bioinformatics \
 Institute for Biochemistry and Biology \
